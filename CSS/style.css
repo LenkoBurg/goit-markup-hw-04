@@ -609,12 +609,16 @@ p {
   box-sizing: border-box;
   min-width: 370px;
 }
-.image-list:hover,
-.image-list:focus {
+.link-card {
+  display: block;
+  text-decoration: none;
+}
+.link-card:hover,
+.link-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.imgs .image-list .image-title {
+.image-title {
   margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
@@ -630,6 +634,7 @@ p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  color: #757575;
 }
 .cards-worker {
   padding: 20px 24px;
